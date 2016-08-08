@@ -1,0 +1,44 @@
+body
+{
+	background-color: 	#483D8B;
+}
+h6
+{
+	font-size: 290px;
+	text-align: center;
+	text-shadow: 5px 10px 10px red;
+}
+.a1
+{
+	background-color: 	#FFFAF0;
+}
+.a2
+{
+	background-color: #483D8B;
+}
+.a3
+{
+		background-color: black;
+}
+.a4
+{
+	background-color: #7DD3FF;
+	width: 900px;
+	height: 400px;
+	border: 25px #7DD3FF;
+	padding: 25px;
+	margin: 25px;
+	margin-left: 450px;
+	margin-right: 300px;
+	margin-top: 180px;
+	margin-bottom: 300px;
+}
+.a5
+{
+	text-align: justify;
+	font-size: 18px;
+}
+h5
+{
+	font-size: 50px;
+}
