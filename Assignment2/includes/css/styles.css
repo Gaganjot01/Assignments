@@ -1,0 +1,401 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features
+   {
+      text-align: center;
+   }
+
+   #features img
+   {
+      margin: 0 0 20px;
+   }
+
+   .inputMessage
+   {
+      margin-bottom: 15px;
+   }
+
+   footer
+   {
+      background: #1b2e5b;
+      color: #FFF;
+      font-size: 11px;
+      padding: 25px;
+   }
+   
+
+   .h
+   {
+      margin-top: 20px;
+      font-size: 25px;
+   }
+   .copy
+   {
+      margin-top: 25px;
+   }
+
+   
+   .pFooter
+   {
+      font-size: 20px;
+   }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+  /*body
+  {
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+  }*/
+ /* #page
+  {
+      margin-left: 15px;
+      margin-right: 15px;
+  } */
+  .well
+  {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .well .page-header
+  {
+   margin-top: 0;
+  }
+
+  .well .page-header h1
+  {
+   margin-top: 0;
+  }
+
+   
+   #image
+   {
+      width: 100%;
+      height: 600px;
+      
+      
+   }
+   .wrap
+   {
+      text-align: justify;
+   }
+
+   .moreAbout
+   {
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+   .carousel-control
+   {
+      color: red;
+   }
+
+   ul.unstyled
+   {
+      list-style: none;
+      padding: 0;
+ 
+   }
+   .hPadding
+   {
+      margin-left: 14px;
+   }
+   .h2Padding
+   {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .searchInput
+   {
+      width: 200px;
+   }
+   .navbar-brand
+   {
+      padding: 13px 15px;
+   }
+   .navHeader
+   {
+    
+       background: #1b2e5b;
+      
+   }
+   .navPadding
+   {
+      margin-top: 27px;
+      font-size: 20px;
+      color: #f89e1f;
+   }
+
+   .navTitle
+   {
+      color:   #FFFAFA;
+   }
+    .panelSize
+   {
+     min-height: 80px;
+   }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel
+   {
+      margin-top: 140px;
+      /*margin-left: 20px;*/
+      /*margin-right: 20px;*/
+   }
+   .carousel-caption
+   {
+      font-size: 24px;
+   }
+   #myCarousel .item{ height: 400px; }
+
+   #slide1
+   {
+      background: url('images/cyclingWrapper2.jpg') top center no repeat;
+   }
+
+   #slide2
+   {
+      background: url('images/cyclingWrapper3.jpg') top center no repeat;
+   }
+
+   #slide3
+   {
+      background: url('images/cyclingWrapper4.jpg') top center no repeat;
+   }
+
+   .gcell
+   {
+      text-align: center;
+   }
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .well
+   {
+      margin: 20px 0;
+   }
+
+   .alert
+   {
+      margin-top: 20px;
+      display: none;
+   }
+
+   .tabbable img.thumbnail
+   {
+      margin: 0 20px 18px 0;
+   }
+
+   .thumbnails
+   {
+      margin: 20px 0;
+   }
+
+   .thumbnail
+   {
+      position: relative;
+   }
+
+   .thumbnail h3
+   {
+      font-size: 16px;
+      margin: 0 0 10px;
+      line-height: 20px;
+   }
+
+   .thumbnail .price
+   {
+      font-size: 22px;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      padding: 10px;
+   }
+
+   .thumbnail .price sup
+   {
+      font-weight: normal;
+      font-size: 12px;
+   }
+
+   .thumbnail span.glyphicon
+   {
+      margin-right: 5px;
+   }
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   
+   .navTitle
+   {
+      color: #f89e1f;
+   }
+   .imageText
+   {
+      font-size: 20px;
+   }
+   .foot
+   {
+      height: 700px;
+      /*margin-left: 10px;
+      margin-right: 10px;*/
+   }
+   .cont
+   {
+      margin-right: 10px;
+      margin-left: 10px;
+   }
+   .thumbnail .price
+   {
+      font-size: 14px;
+   }
+
+   .thumbnail .price sup
+   {
+      font-size: 10px;
+   }
+	#myCarousel .item{ height: 400px; }
+
+   #slide1
+   {
+      background: url('images/cyclingWrapper2.jpg') top center no repeat;
+   }
+
+   #slide2
+   {
+      background: url('images/cyclingWrapper3.jpg') top center no repeat;
+   }
+
+   #slide3
+   {
+      background: url('images/cyclingWrapper4.jpg') top center no repeat;
+   }
+   #myCarousel
+   {
+      margin-top: 120px;
+      /*margin-left: 20px;*/
+      /*margin-right: 20px;*/
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .foot
+   {
+      height: 900px;
+      margin-right: -40px;
+      margin-left: -40px;
+   }
+
+  
+
+	#myCarousel .item{ height: 310px; }
+
+   #slide1
+   {
+      background: url('images/cyclingWrapper2.jpg') top center no repeat;
+   }
+
+   #slide2
+   {
+      background: url('images/cyclingWrapper3.jpg') top center no repeat;
+   }
+
+   #slide3
+   {
+      background: url('images/cyclingWrapper4.jpg') top center no repeat;
+   }
+
+   .carousel-caption
+   {
+      font-size: 16px;
+   }
+   .carousel-caption h4
+   {
+      font-size: 22px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   
+ .navHeader
+   {
+      height: 120px;
+       background: #1b2e5b;
+      
+   }
+    .foot
+   {
+      height: 500px;
+      /*margin-right: -40px;*/
+   }
+
+   #myCarousel .item{ height: 500px; }
+
+   #slide1
+   {
+      background: url('images/cyclingWrapper2.jpg') top center no repeat;
+   }
+
+   #slide2
+   {
+      background: url('images/cyclingWrapper3.jpg') top center no repeat;
+   }
+
+   #slide3
+   {
+      background: url('images/cyclingWrapper4.jpg') top center no repeat;
+   }
+   /*#foot
+   {
+      height: 400px;
+   }	*/
+}
+
+/* image */
+   
+   .cycleCircle
+   {
+      width: 200px;
+      height: 150px;
+   }
+   .sect
+   {
+      width: 10px;
+      height: 100px;
+   }
+   #crossAllycat
+   {
+      width: 500px;
+   height: 300px;
+   }
+   .gmap
+   {
+      width: 100%;
+      height: 300px;
+      
+
+   }
